@@ -5,7 +5,7 @@
     </div>
     <div class="card-body">
       <div>
-        <input type="text" [(ngModel)]="inputValue">
+        <input type="text" [(ngModel)]="inputValue" placeholder="Enter Game">
         <button type="button" class="btn btn-primary" style="margin-left: 5px;" (click)="addGame()" [disabled]="inputValue.length === 0">Add</button>
       </div>
       <ul class="list-group mt-3">
@@ -17,3 +17,4 @@
     </div>
   </div>
 </div>
+
